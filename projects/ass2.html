@@ -1,0 +1,182 @@
+<html>
+<head>
+    <title>EduStream - AI Learning Content Portal</title>
+    <style>
+    h2 {
+        font-weight: bold;
+        font-style: italic;
+        color: #003366;
+        margin-top: 30px;
+    }
+    h3 {
+        font-style: italic;
+        color: #005580;
+        margin-bottom: 5px;
+    }
+    p, ul {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    th, td {
+        border: 1px solid #0077b6;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #00b4d8;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body style="background-color: #e6f7ff; color: black; font-family: Arial, sans-serif; padding: 20px;">
+
+    <h1 id="top" style="text-align:center;">🤖 Welcome to EduStream: Learn AI Together</h1>
+    <p style="text-align:center; font-size: 16px;">
+        <strong>EduStream</strong> is an interactive platform designed to empower students and educators 
+        by simplifying the sharing and discovery of AI-related educational content. From curated lecture 
+        videos and insightful podcasts to downloadable resources and upcoming tech events, EduStream serves 
+        as a one-stop hub for learning and teaching Artificial Intelligence. Whether you're exploring the basics 
+        or contributing your own materials, EduStream fosters a collaborative learning environment for all.
+    </p>
+
+    <hr>
+
+    <h3>🔎 Quick Navigation</h3>
+    <ul>
+        <li><a href="#facts">💡 AI Facts</a></li>
+        <li><a href="#tutorial">🎥 Tutorial</a></li>
+        <li><a href="#lecture">🎥 Video Lecture</a></li>
+        <li><a href="#podcast">🎧 Podcast</a></li>
+        <li><a href="#submit">📝 Submit Resource</a></li>
+        <li><a href="#visuals">🌐 AI Visuals</a></li>
+        <li><a href="#links">🌐 More Resources</a></li>
+        <li><a href="#events">📅 Events</a></li>
+        <li><a href="#feedback">💬 Feedback</a></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="facts">💡 Quick AI Facts</h2>
+    <ul>
+        <li>AI was coined in 1956 at a Dartmouth conference.</li>
+        <li>Machine Learning is a subset of AI.</li>
+        <li>Chatbots like ChatGPT use Natural Language Processing.</li>
+    </ul>
+    <hr>
+
+    <h2 id="tutorial">🎥 How AI Could Save Education – Sal Khan (TED)</h2>
+    <video width="560" height="315" controls>
+    <source src="How AI Could Save (Not Destroy) Education _ Sal Khan _ TED.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+   <p><small>This TED Talk by Sal Khan explores how AI can revolutionize and personalize education for students around the world.</small></p>   
+
+    <h2 id="lecture">🎥 Full Course: What is Generative AI? - freeCodeCamp</h2>
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/mEsleV16qdo"
+    title="Generative AI Full Course - freeCodeCamp" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+    <p><small>A complete 30-hour Generative AI course from freeCodeCamp covering tools like ChatGPT, DALL·E, and code generation. Great for learners of all levels.</small></p>
+
+
+
+
+    <h2 id="podcast">🎧 AI Podcast Episode</h2>
+    <iframe style="border-radius:12px"
+    src="https://open.spotify.com/embed/episode/1CmIKf9iKxr7Tse8HlrzL9?utm_source=generator"
+    width="100%" height="152" frameBorder="0" allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+    </iframe>
+    <p><small>Listen to an expert discussion on the real-world impact of AI and its future.</small></p>
+    <hr>
+
+    <h2 id="podcast">🎧 What is AI Anyway – Mustafa Suleyman (TED)</h2>
+    <audio controls>
+    <source src="What Is an AI Anyway_  Mustafa Suleyman  TED.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <p><small>This TED Talk by Mustafa Suleyman explores what AI truly is and how it shapes the future.</small></p>
+
+
+    <h2 id="submit">📝 Submit Your AI Learning Resource</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <h3>👤 Educator Details</h3>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required title="Enter your full name"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required title="Enter a valid email address"><br><br>
+
+        <h3>📂 Resource Info</h3>
+        <label for="file">Upload Resource File:</label><br>
+        <input type="file" id="file" name="file" title="Upload PDF, video, or presentation file"><br><br>
+
+        <label for="subject">AI Subfield:</label><br>
+        <select id="subject" name="subject" title="Choose the topic related to your content">
+            <option value="ml">Machine Learning</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="dl">Deep Learning</option>
+            <option value="py">Python</option>
+            <option value="stats">Probability & Statistics</option>
+            <option value="ethics">AI Ethics</option>
+            <option value="others">Others</option>
+        </select><br><br>
+
+        <label for="description">Brief Description:</label><br>
+        <textarea id="description" name="description" rows="5" cols="40"
+            placeholder="Describe the AI resource you're submitting..."
+            title="Write a short summary about your content"></textarea><br><br>
+
+        <h3>✅ Confirm Submission</h3>
+        <label><input type="checkbox" name="agree"> I agree to share this content on EduStream</label><br><br>
+        <input type="submit" value="Submit Resource">
+    </form>
+    <hr>
+
+    <h2 id="visuals">🖼 Sample AI Visuals</h2>
+    <img src="ai.jpg" width="300" alt="AI image">
+    <img src="ai_tools.jpg" height="200" width="300" alt="AI tools">
+    <hr>
+
+    <h2 id="links">🌐 Explore More</h2>
+    <ul>
+        <li><a href="https://www.coursera.org/learn/machine-learning" target="_blank">Machine Learning by Stanford (Coursera)</a></li>
+        <li><a href="https://www.kaggle.com/" target="_blank">Kaggle - Learn AI with Data Competitions</a></li>
+        <li><a href="https://deepai.org/" target="_blank">DeepAI - Open Source AI Tools</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="events">📅 Upcoming AI Events</h2>
+    <table border="1" cellpadding="8">
+        <tr><th>Date</th><th>Event</th><th>Location</th></tr>
+        <tr><td>27-06-2025</td><td>Python Bootcamp</td><td>JIIT, ABB1</td></tr>
+        <tr><td>29-06-2025</td><td>AI Ethics Webinar</td><td>JIIT, ABB1</td></tr>
+        <tr><td>1-07-2025</td><td>ML Bootcamp</td><td>JIIT, CL1</td></tr>
+        <tr><td>3-07-2025</td><td>DS Bootcamp</td><td>JIIT, CL7</td></tr>
+    </table>
+    <hr>
+
+    <h2 id="feedback">💬 Give Us Feedback</h2>
+    <form>
+        <label for="feedback">What do you think of EduStream?</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" title="We value your opinion!"></textarea><br>
+        <input type="submit" value="Send Feedback">
+    </form>
+    <hr>
+ <p><a href="#top">🔝 Back to Top</a></p>
+    <footer>
+        <p style="text-align:center;">&copy; 2025 EduStream | Advancing AI Education for All</p>
+    </footer>
+</body>
+</html>
