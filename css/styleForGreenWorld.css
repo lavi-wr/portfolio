@@ -1,0 +1,46 @@
+ body{
+                background-image: url(https://img.freepik.com/free-vector/watercolour-green-background_78370-1882.jpg?semt=ais_hybrid&w=740);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+            }
+            .p{
+                 text-align: justify;
+                font-size: 20px;
+                color: rgba(5, 40, 44, 0.753);
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                line-height: 1.6;
+            }
+       
+            .main{
+                text-align: justify;
+                font-size: 18px;
+                color: rgba(5, 40, 44, 0.753);
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                line-height: 1.6;
+            }
+            .h2{
+                text-align:left;
+        font-size:40px;
+        color:rgba(1, 134, 65, 0.831);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .intro{
+                text-align:left;
+        font-size:25px;
+        color:rgba(1, 134, 65, 0.831);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+            }
+            .image{
+                width:500px;
+                height:500px;
+                border-radius: 10px;
+                border:2px solid rgba(5, 40, 44, 0.753);
+            }
+            li::marker{
+                font-weight:bold;
+                color:rgb(4, 60, 70);
+            }
+           
