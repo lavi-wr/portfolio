@@ -6,6 +6,7 @@ It showcases my projects, skills, and basic information.
 ## Technologies Used
 - HTML5
 - CSS3
+- js 
 
 ## Features
 - Clean and responsive layout
