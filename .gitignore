@@ -1,2 +1,18 @@
+# OS files
 .DS_Store
+
+# Editor settings
 .vscode/
+
+# Compiled files
+*.class
+*.exe
+*.out
+
+# Build / temp folders
+bin/
+dist/
+build/
+
+# Logs
+*.log
