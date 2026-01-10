@@ -1,6 +1,7 @@
  body {
-    background-image: url('https://media.licdn.com/dms/image/v2/D5612AQExjWOS223uBQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1711718025595?e=2147483647&v=beta&t=h1c6C9sim3QW93aFOljJymZkUDnIirKWAdg86MrWv5g');
+    background-image: url('../assets/background.gif');
     background-size: cover;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
